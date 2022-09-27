@@ -1,0 +1,319 @@
+@media(max-width:1100px){
+    .container{
+        position: relative;
+        width: 330px;
+        margin: 0 auto;
+    }
+    .header{
+        background-size: 360px 610px;
+    }
+    .header_lang{
+        width: 211px;
+        padding-top: 40px;
+        margin:0 auto 65px;
+    }
+    .lang{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .header_title{
+        width: 278px;
+        margin-left: 20px;
+        font-weight: 400;
+        font-size: 46px;
+        line-height: 58px;
+    }
+    .header_info{
+        width: 278px;
+        margin: 0 auto;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 53px;
+    }
+    .header_box::before{
+        display: none;
+    }
+    .header_box::after{
+        display: none;
+    }
+    .navigation_title{
+        display: none;
+    }
+    .header_menu{
+        position: relative;
+        width: 278px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .header_menu::after{
+        content: '';
+        position: absolute;
+        width: 8px;
+        height: 80px;
+        background-image: url(../images/header_arrow.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        top: 180px;
+        left: 135px;
+    }
+    .header_button {
+        width: 124px;
+        padding: 10px 0;
+        margin-bottom: 20px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+    }
+    /* ------------------------- */
+    .buy_coin {
+        background-size: 500px 355px;
+    }
+    .buy_coin::after{
+        height: 110px; 
+        top: -45px;
+    }
+    .buy_coin::before{
+        height: 89px;
+        bottom: -48px;
+    }
+    .buy_title{
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 58px;
+        margin-bottom: 25px;
+    }
+    .buy_info:nth-of-type(1) {
+        padding-top: 100px;
+    }
+    .buy_info{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .buy_button_wrapper,
+    .doc_button_wrapper{
+        width: 320px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .buy_button,
+    .doc_button{
+        width: 125px;
+        height: 46.53px;
+        margin-bottom: 25px;
+    }
+    .buy_button:nth-of-type(3){
+        margin-bottom: 100px;
+    }
+    .buy_text{
+        width: 118.89px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 141%;  
+        padding: 10px 0;
+    }
+    
+    .buy_button::after,
+    .doc_button::after  {
+        top: -4px;
+        right: -2px;
+    }
+    .buy_button::after,
+    .doc_button::after,
+    .buy_span::before {
+        width: 18px;
+	    height: 18px;
+    }
+    .doc_button:hover::before,
+    .doc_button:hover::after,
+    .doc_button:hover .buy_span::before,
+    .doc_button:hover .buy_span::after  {
+	    width: calc( 255px / 2);
+	    height: calc( 95px / 2);
+    }
+    .buy_button:hover::before,
+    .buy_button:hover::after,
+    .buy_button:hover .buy_span::before,
+    .buy_button:hover .buy_span::after  {
+	    width: calc( 255px / 2);
+	    height: calc( 95px / 2);
+    }
+    /* ------------------------------- */
+    .road_map{
+        background-image: url('https://i.gifer.com/fzGq.gif');
+        background-size: 800px 800px;
+    }
+    .road_title{
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 58px;
+    }
+    .road_map_wrapper{
+        padding-top: 75px;
+    }
+    .road_map_wrapper::before,
+    .roadmap_gif_wrapper::before {
+        display: none;
+    }
+    .roadmap_gif_wrapper::after {
+        height: 89px;
+        bottom: -50px;
+    }
+    .roadmap_gif_wrapper{
+        padding-bottom: 75px;
+    }
+    .road_map_card{
+        padding-bottom: 20px;
+        margin: 0;
+    }
+    .road_number{
+        width: 100px;
+        height: 100px;
+    }
+    .road_quartal{
+        padding: 40px 0 0 85px;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 49px;
+    }
+    .road_list{
+       padding-left: 18px;
+    }
+    .list_info{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px;
+        padding-bottom: 15px;
+        margin-bottom: 0;
+    }
+    .road_map_card:nth-of-type(1){
+        padding: 0;
+    }
+    .road_map_card:nth-of-type(2){
+        margin-left: 0;
+        padding: 0;
+    }
+    .road_map_card_inner{
+        padding: 0;
+    }
+    /* ------------------------------ */
+    .contact{
+        background-size: 395px 660px;
+    }
+    .contact::after{
+        height: 89px; 
+        bottom: -53px;
+    }
+    .contact::before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 92px;
+        background-image: url(../images/bg_black.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        top: 620px;
+        
+    }
+    .contact_title{
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 58px;
+    }
+    .contact_wrapper{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 100px;
+    }
+    .contacts_box{
+        width: 330px;
+        margin: 0 auto;
+    }
+    .mail, .phone {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .phone{
+        text-align: right;
+    }
+    .mail_name, .phone_name {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .phone_name {
+        text-align: right;
+    }
+    .phone_contact{
+        margin-right: 0;
+    }
+    .write_us{
+        width: 118px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 0.075em;
+        padding: 9px 0;
+    }
+    .write_us::after{
+        display: none;
+    }
+    .phone_contact .write_us{
+        margin: 0 0 0 28px;
+    }
+    .contact_media{
+        margin-top: 30px;
+    }
+    .question_wrapper{
+        margin-top: 0;
+        flex-wrap: wrap;
+    }
+    .faq_box{
+        padding: 30px 0 60px 0;
+    }
+    .question{
+        width: 330px;
+    }
+    .question_text{
+        width: 330px;
+    }
+    .form_title{
+        font-size: 35px;
+        margin-bottom: 27px;
+    }
+    .question_input{
+        width: 330px;
+    }
+    .form_submit{
+        width: 149.6px;
+        padding: 15px 0;  
+        font-size: 15px;
+        margin: 0 auto;
+    }
+    .form-box_done{
+        width: 350px;
+        height: 184px;
+        background-position: -80px -110px;
+    }
+    .text_done{
+        height: 84px;
+    }
+    .form_done_text{
+        font-size: 26px;
+        margin: 15px auto;
+    }
+    /* ------------------------------ */
+    .doc_title{
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 58px;
+    }
+    .doc_button_wrapper{
+        padding: 180px 0 65px 0;
+    }
+}   
