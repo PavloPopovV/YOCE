@@ -684,6 +684,13 @@ body {
     height: 84px;
     cursor: pointer;
 }
+.created{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 141%;
+    letter-spacing: 0.075em;
+    text-align: center;
+}
 
 
 

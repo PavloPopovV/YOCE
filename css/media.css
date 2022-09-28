@@ -316,4 +316,7 @@
     .doc_button_wrapper{
         padding: 180px 0 65px 0;
     }
+    .created{
+        font-size: 10px; 
+    }
 }   
