@@ -53,6 +53,7 @@ $(function () {
 
     $(".window_order_close").on("click", function () {
         $(".form_box_wrapper").hide();
+        $(".news_modal_wrapper").hide();
     });
 });
 
@@ -78,6 +79,27 @@ $(function () {
     }
 });
 
+$(function () {
+    $('.news_slider').slick({
+        arrows: false,
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 1100,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots:false,
+                    arrows:true,
+                }
+            }
+        ]
+    });
+});
 
-
-
+$(".news_card_button").on("click", function () {
+    $(".news_modal_wrapper").show();
+});
