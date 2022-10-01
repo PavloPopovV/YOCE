@@ -81,7 +81,7 @@
     }
     .buy_title{
         font-weight: 600;
-        font-size: 46px;
+        font-size: 43px;
         line-height: 58px;
         margin-bottom: 25px;
     }
@@ -144,11 +144,11 @@
     /* ------------------------------- */
     .road_map{
         background-image: url('https://i.gifer.com/fzGq.gif');
-        background-size: 800px 800px;
+        background-size: 800px 840px;
     }
     .road_title{
         font-weight: 600;
-        font-size: 46px;
+        font-size: 38px;
         line-height: 58px;
     }
     .road_map_wrapper{
@@ -164,6 +164,7 @@
     }
     .roadmap_gif_wrapper{
         padding-bottom: 75px;
+        background-size: 800px 1175px;
     }
     .road_map_card{
         padding-bottom: 20px;
@@ -201,7 +202,7 @@
     }
     /* ------------------------------ */
     .contact{
-        background-size: 395px 660px;
+        background-size: 395px 700px;
     }
     .contact::after{
         height: 89px; 
@@ -221,7 +222,7 @@
     }
     .contact_title{
         font-weight: 600;
-        font-size: 46px;
+        font-size: 40px;
         line-height: 58px;
     }
     .contact_wrapper{
@@ -264,7 +265,7 @@
         display: none;
     }
     .phone_contact .write_us{
-        margin: 0 0 0 28px;
+        margin: 0 0 0 85px;
     }
     .contact_media{
         margin-top: 30px;
@@ -278,6 +279,10 @@
     }
     .question{
         width: 330px;
+    }
+    .number{
+        max-width: 290px;
+        
     }
     .question_text{
         width: 330px;
@@ -310,7 +315,7 @@
     /* ------------------------------ */
     .doc_title{
         font-weight: 600;
-        font-size: 46px;
+        font-size: 37px;
         line-height: 58px;
     }
     .doc_button_wrapper{

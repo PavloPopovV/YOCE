@@ -285,7 +285,7 @@ body {
     color: rgba(34, 34, 34, 0.82);
 }
 .road_map_wrapper{
-    padding-top: 220px;
+    padding-top: 140px;
 }
 .road_map_wrapper::before{
     content: "";
@@ -303,7 +303,7 @@ body {
 .roadmap_gif_wrapper{
     position: relative;
     background-image: url('https://i.gifer.com/fzGq.gif');
-    background-size: 800px 800px;
+    background-size: 800px 1200px;
     background-position: -15px 0;
 }
 .roadmap_gif_wrapper::before{
@@ -368,11 +368,12 @@ body {
     color: #fff;
 }
 .list_info{
+    position: relative;
+    padding-bottom: 8px;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     letter-spacing: 0.075em;
-    margin-bottom: 8px;
     z-index: 10;
 }
 
@@ -426,7 +427,7 @@ body {
 .mail,
 .phone{
     font-weight: 400;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 85px;
     letter-spacing: 0.075em;
 }
@@ -503,10 +504,12 @@ body {
     width: 392px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-top: 4px solid #FFFFFF;
     padding-top: 5px;
 }
 .number{
+    max-width: 350px;
     padding-top: 5px;
     font-weight: 400;
     font-size: 20px;
